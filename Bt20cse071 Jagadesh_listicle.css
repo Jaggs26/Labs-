@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 500px;
+  background-image: url(./images/img1.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 40px;
+  color: white;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 5rem;
+}
+.dp {
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+  margin-bottom: -90px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+
+main {
+  width: 66.67vw;
+  text-align: left;
+  margin: auto;
+  text-transform: capitalize;
+  position: relative;
+}
+main h1 {
+  font-family: "Roboto Slab", serif;
+  color: rgba(51, 51, 51);
+}
+.parent {
+  display: inline;
+}
+
+.placeImg {
+  width: 66.67vw;
+}
+li {
+  color: rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+.lab {
+  margin-left: 0px;
+  font-style: Roboto Slab;
+  fallback: serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+.num {
+  color: rgba(0, 0, 0, 0.25);
+}
+li p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 32px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: #42b4d6;
+}
+
+.img {
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
